@@ -1,0 +1,42 @@
+.home {
+    background: rgb(54, 22, 83);
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    padding: 0 1rem;
+
+    .header {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        height: 10vh;
+        justify-content: space-between;
+    ;
+    }
+
+    .outline {
+        display: flex;
+        gap: 2rem;
+    }
+
+    button {
+        border: none;
+        border-radius: 5px;
+       
+    }
+
+    .list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+        margin-top: 1rem;
+
+        img {
+            width: 10rem;
+        }
+    }
+}

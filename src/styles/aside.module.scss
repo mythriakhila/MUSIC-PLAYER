@@ -1,0 +1,21 @@
+.aside {
+    width: 15%;
+    height: auto;
+    background-color: rgb(25, 18, 74);
+    color: white;
+    ul{
+     display:flex;
+     flex-direction: column;
+     gap: 1.5rem; 
+     li{
+        line-height: 1rem;
+     }  
+    }
+    .plus{
+       border: 1px dashed white;
+        margin-top: 2rem;
+        padding: 0.5rem;
+        width: 130px;
+        margin-left: 18px;
+    }
+}
